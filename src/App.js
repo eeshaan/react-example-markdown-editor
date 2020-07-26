@@ -18,7 +18,7 @@ function App() {
         <SimpleGrid minChildWidth="120px" colummns={2}>
           <Box>
             <div className="editable">
-              <textarea onChange={update} value={markdown} />
+              <textarea wrap="on" onChange={update} value={markdown} />
             </div>
           </Box>
           <Box bg="gray.100">

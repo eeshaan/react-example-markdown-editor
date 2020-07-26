@@ -1,5 +1,24 @@
+html,
+body {
+  height: 100%;
+}
+
+body > #root > div {
+  height: 100vh;
+}
+
 textarea {
   border: none;
   outline: none;
   resize: none;
+  height: 100%;
+  width: 100%;
+}
+
+.editable {
+  height: 100%;
+}
+
+.rendered {
+  overflow-wrap: break-word;
 }
